@@ -19,12 +19,16 @@ output eDP-1 resolution 1920x1080 position 1920,0
 input type:keyboard {
     repeat_delay 220
     repeat_rate 32
-    xkb_layout us,ru
+    xkb_layout us,ca
     xkb_options grp:alt_shift_toggle
 } 
 
 input type:touchpad {
     tap enabled
+}
+
+input type:pointer {
+	left_handed enabled
 }
 
 bindsym $mod+Return exec $term
