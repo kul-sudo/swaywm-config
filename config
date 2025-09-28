@@ -11,7 +11,7 @@ set $menu wmenu-run
 default_border none
 
 output HDMI-A-1 {
-  modeline 204.25  1920 2056 2256 2592  1080 1083 1088 1127 -hsync +vsync
+  modeline 210.25 1920 2056 2256 2592 1080 1083 1088 1128 -hsync +vsync
   position 0,0
 }
 output eDP-1 resolution 1920x1080 position 1920,0
